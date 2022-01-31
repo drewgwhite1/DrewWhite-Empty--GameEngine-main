@@ -2,7 +2,7 @@ class Zombie {
     constructor(game){
          this.game = game;
         // //this.animator = new Animator(ASSET_MANAGER.getAsset("./zombie1.png"), 16, 645, 32, 59, 10, 0.25);
-         this.animator = new Animator(ASSET_MANAGER.getAsset("./zombie1.png"), 16, 709, 32, 59, 9, 0.1);
+         this.animator = new Animator(ASSET_MANAGER.getAsset("./zombie1.png"), 0, 709, 64, 59, 9, 0.1);
         // //this.animations[1][1] = new Animator(this.spritesheet, 16, 773, 32, 59, 9, 0.1, false, true);
 
          this.x = 0;
